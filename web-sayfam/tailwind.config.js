@@ -17,6 +17,7 @@ module.exports = {
         silver: "#ecebff",
         bermuda: "#78dcca",
         bluex: "#3730A3",
+
         graytext: "#6B7280",
         purpletext: "#7B61FF",
       },
