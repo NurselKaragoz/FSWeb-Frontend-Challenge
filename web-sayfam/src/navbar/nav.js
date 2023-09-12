@@ -1,8 +1,8 @@
 function NavigatorBar() {
   return (
     <div>
-      <div>
-        <button class=" justify-self-start bg-colors-purple border-colors-purple text-colors-purpletext rotate-45 px-2 py-1 rounded-full">
+      <div class="flex place-content-between">
+        <button class=" text-left bg-colors-purple border-colors-purple text-colors-purpletext rotate-45 px-2 py-1 rounded-full">
           N
         </button>
 
