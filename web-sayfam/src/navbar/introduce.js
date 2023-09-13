@@ -1,6 +1,7 @@
 import deneme from "./img.png";
 import React from "react";
 import linkedinLogo from "./LinkedIn.svg";
+import githupLogo from "./github.svg";
 function Introduce() {
   return (
     <div>
@@ -18,12 +19,19 @@ function Introduce() {
             <button class="bg-transparent border-colors-bluex py-2 px-3 border text-colors-bluex hover:text-colors-white  hover:bg-colors-bluex  hover:border-colors-bluex  rounded-xl">
               Hire Me
             </button>
-            <button class="bg-transparent border-colors-bluex py-2 px-3 border text-colors-bluex hover:text-colors-white  hover:bg-colors-bluex  hover:border-colors-bluex  rounded-xl">
-              Github
-            </button>
-            <button class=" bg-transparent border-colors-bluex py-2 px-6 border text-colors-bluex hover:text-colors-white  hover:bg-colors-bluex  hover:border-colors-bluex  rounded-xl">
-              <img src={linkedinLogo} /> Linkedin
-            </button>
+            <a href="https://github.com/NurselKaragoz" target="_blank">
+              <button class=" flex bg-transparent border-colors-bluex py-2 px-3 border text-colors-bluex hover:text-colors-white  hover:bg-colors-bluex  hover:border-colors-bluex  rounded-xl">
+                <img src={githupLogo} class=" pr-2" /> Github
+              </button>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/nurselkarag%C3%B6z/"
+              target="_blank"
+            >
+              <button class=" flex bg-transparent border-colors-bluex py-2 px-6 border text-colors-bluex hover:text-colors-white  hover:bg-colors-bluex  hover:border-colors-bluex  rounded-xl">
+                <img src={linkedinLogo} class=" pr-2" /> Linkedin
+              </button>
+            </a>
           </div>
         </div>
         <div class="flex text-right">
