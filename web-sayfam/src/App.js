@@ -1,12 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import NavigatorBar from "./navbar/nav";
-import Header from "./navbar/header";
-import Introduce from "./navbar/introduce";
-import Skills from "./navbar/skills";
-import Profile from "./navbar/profile";
-import Projects from "./navbar/Projects";
-import Footer from "./navbar/Footer";
+import NavigatorBar from "./Companents/nav";
+import Header from "./Companents/header";
+import Introduce from "./Companents/introduce";
+import Skills from "./Companents/skills";
+import Profile from "./Companents/profile";
+import Projects from "./Companents/Projects";
+import Footer from "./Companents/Footer";
 
 function App() {
   return (
