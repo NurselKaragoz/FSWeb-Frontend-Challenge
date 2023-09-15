@@ -1,7 +1,7 @@
 function Profile() {
   return (
-    <div>
-      <h1 class=" font-semibold text-4xl text-left ">Profile </h1>
+    <div class="mt-10 mb-5 border-t border-colors-purple100 ">
+      <h1 class="  flex font-semibold text-4xl text-left pt-4 pb-4">Profile</h1>
       <h5 class=" text-colors-bluex text-left flex flex-row">Profile</h5>
       <div class="flex ">
         <ul class=" text-left min-w-fit ">
@@ -19,10 +19,10 @@ function Profile() {
 
           <li class=" text-colors-black font-normal">Frontend UI</li>
         </ul>
-        <div class="text-left ml-8">
+        <div class="text-left ml-16 ">
           <h5 class=" text-colors-bluex flex">About Me</h5>
 
-          <p class="text-colors-graytext">
+          <p class="text-colors-graytext max-w-lg">
             iaculis urna id volutpat lacus laoreet non curabitur gravida arcu ac
             tortor dignissim convallis aenean et tortor at risus viverra
             adipiscing at in <br /> tellus integer feugiat scelerisque varius

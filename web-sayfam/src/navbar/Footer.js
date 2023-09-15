@@ -6,7 +6,7 @@ function Footer() {
         your next project
       </p>
       <p class="text-colors-red100 text-left underline mt-10">
-        nurselkaragoz@outlook.com{" "}
+        👉 nurselkaragoz@outlook.com
       </p>
       <div>
         <ul class="flex justify-end gap-2">
