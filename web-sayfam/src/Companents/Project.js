@@ -1,6 +1,6 @@
-import photoWorkintech from "./workintech.png";
-import randomimg from "./randomJokes.png";
-import Journey from "./Journey.png";
+import photoWorkintech from "./images/workintech.png";
+import randomimg from "./images/randomJokes.png";
+import Journey from "./images/Journey.png";
 
 function Project() {
   return (

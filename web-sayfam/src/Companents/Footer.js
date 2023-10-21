@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div class=" bg-colors-gray100  w-screen">
+    <div class=" bg-colors-gray100 ">
       <p class="text-colors-black100 font-semibold text-4xl text-left ">
         Let's work together on <br />
         your next project

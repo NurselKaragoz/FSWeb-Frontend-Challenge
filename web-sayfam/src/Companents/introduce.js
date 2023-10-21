@@ -1,13 +1,12 @@
-import intoImg from "./img.png";
+import intoImg from "./images/img.png";
 import React from "react";
-import linkedinLogo from "./LinkedIn.svg";
-import githupLogo from "./github.svg";
-import linkedindark from "./linkedindark.svg";
+import linkedinLogo from "./images/LinkedIn.svg";
+import githupLogo from "./images/github.svg";
 import "./cizgi.css";
 function Introduce() {
   return (
     <div>
-      <div class=" flex-row flex items-center">
+      <div class=" flex-row flex  justify-center ">
         <div class="flex-col text-left ">
           <p class="text-colors-bluex  w-32 cizgilibaslik">Nursel</p>
           <h1 class=" flex max-w-screen-xl text-6xl ">
@@ -23,7 +22,7 @@ function Introduce() {
               Hire Me
             </button>
             <a href="https://github.com/NurselKaragoz" target="_blank">
-              <button class=" flex bg-transparent border-colors-bluex py-2 px-6 border text-colors-bluex hover:text-colors-white  hover:bg-colors-bluex  hover:border-colors-bluex  rounded-xl ">
+              <button class=" btn">
                 <img src={githupLogo} class=" pr-2 hover: text-colors-white" />
                 Github
               </button>
