@@ -1,26 +1,26 @@
 function Skills() {
   return (
-    <div class=" mt-10">
-      <h1 class=" font-semibold text-4xl text-left  pb-5">Skills</h1>
-      <ul class=" text-colors-blue100 list-none flex justify-around">
-        <li class="text-left">
+    <div className=" mt-10">
+      <h1 className=" font-semibold text-4xl text-left  pb-5">Skills</h1>
+      <ul className=" text-colors-blue100 list-none flex justify-around">
+        <li className="text-left">
           Java Script
-          <p class="text-colors-graytext text-left  max-w-sm">
+          <p className="text-colors-graytext text-left  max-w-sm">
             diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis
             nunc sed blandit libero volutpat sed cras ornare arcu
           </p>
         </li>
 
-        <li class="text-left">
+        <li className="text-left">
           React.Js
-          <p class="text-colors-graytext text-left  max-w-sm">
+          <p className="text-colors-graytext text-left  max-w-sm">
             diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis
             nunc sed blandit libero volutpat sed cras ornare arcu
           </p>
         </li>
-        <li class="text-left">
+        <li className="text-left">
           Node.Js
-          <p class=" text-colors-graytext text-left max-w-sm">
+          <p className=" text-colors-graytext text-left max-w-sm">
             diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis
             nunc sed blandit libero volutpat sed cras ornare arcu
           </p>
