@@ -1,6 +1,6 @@
 function Profile() {
   return (
-    <div className="mt-10 mb-5 border-t border-colors-purple100 ">
+    <div className="mt-10 mb-5 border-t border-colors-purple100 dark:bg-colors-graytext ">
       <h1 className="  flex font-semibold text-4xl text-left pt-4 pb-4">
         Profile
       </h1>

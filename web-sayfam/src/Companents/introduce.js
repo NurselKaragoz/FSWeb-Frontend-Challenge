@@ -6,7 +6,7 @@ import "./cizgi.css";
 function Introduce() {
   return (
     <div>
-      <div className=" flex-row flex  justify-center ">
+      <div className=" flex-row flex  justify-center dark:bg-colors-black100">
         <div className="flex-col text-left ">
           <p className="text-colors-bluex  w-32 cizgilibaslik">Nursel</p>
           <h1 className=" flex max-w-screen-xl text-6xl ">
