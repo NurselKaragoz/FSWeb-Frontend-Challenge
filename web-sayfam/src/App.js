@@ -6,7 +6,6 @@ import Skills from "./Companents/skills";
 import Profile from "./Companents/profile";
 import Projects from "./Companents/Projects";
 import Footer from "./Companents/Footer";
-import Dark from "./Companents/darkmode";
 
 function App() {
   return (

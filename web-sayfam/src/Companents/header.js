@@ -21,7 +21,7 @@ function Header() {
   };
 
   return (
-    <div className="flex justify-end ">
+    <div className="flex justify-end dark:bg-colors-black200">
       <button
         onClick={toggleDarkMode}
         className="bg-blue-500 text-colors-graytext px-4 py-2 "

@@ -1,7 +1,7 @@
 function NavigatorBar() {
   return (
     <div>
-      <div className="flex place-content-between">
+      <div className="flex place-content-between dark:bg-colors-black200">
         <button className=" text-left bg-colors-purple border-colors-purple text-colors-purpletext rotate-45 px-2 py-1 rounded-full">
           N
         </button>

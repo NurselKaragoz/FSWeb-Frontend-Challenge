@@ -6,23 +6,23 @@ import "./cizgi.css";
 function Introduce() {
   return (
     <div>
-      <div className=" flex-row flex  justify-center dark:bg-colors-black100">
+      <div className=" flex-row flex  justify-center dark:bg-colors-black200">
         <div className="flex-col text-left ">
           <p className="text-colors-bluex  w-32 cizgilibaslik">Nursel</p>
-          <h1 className=" flex max-w-screen-xl text-6xl ">
+          <h1 className=" flex max-w-screen-xl text-6xl  dark:text-colors-gray200">
             Creative thinker <br /> Minimalisim lover
           </h1>
-          <p className=" text-left  text-colors-graytext  max-w-md pt-6">
+          <p className=" text-left  text-colors-graytext  max-w-md pt-6 dark:text-colors-white">
             Hi I am Nursel.I'am a front-end.If you are looking for a Developer
             who craft solid and scalable frontend products with great user
             experiences.Let's shake hands with me.
           </p>
           <div className=" flex place-content-between  pt-10">
-            <button className="bg-transparent border-colors-bluex py-2 px-6 border text-colors-bluex hover:text-colors-white  hover:bg-colors-bluex  hover:border-colors-bluex  rounded-xl">
+            <button className="bg-transparent border-colors-bluex py-2 px-6 border text-colors-bluex hover:text-colors-white  hover:bg-colors-bluex  hover:border-colors-bluex dark:text-colors-purple100 rounded-xl dark:hover:bg-colors-purple400 dark:hover:text-colors-black">
               Hire Me
             </button>
             <a href="https://github.com/NurselKaragoz" target="_blank">
-              <button className=" btn">
+              <button className="flex bg-transparent border-colors-bluex py-2 px-6 border text-colors-bluex hover:text-colors-white  hover:bg-colors-bluex  hover:border-colors-bluex dark:text-colors-purple100 rounded-xl  dark:hover:bg-colors-purple400 dark:hover:text-colors-black">
                 <img
                   src={githupLogo}
                   className=" pr-2 hover: text-colors-white"
@@ -34,7 +34,7 @@ function Introduce() {
               href="https://www.linkedin.com/in/nurselkarag%C3%B6z/"
               target="_blank"
             >
-              <button className=" flex bg-transparent border-colors-bluex py-2 px-6 border text-colors-bluex hover:text-colors-white  hover:bg-colors-bluex  hover:border-colors-bluex  rounded-xl">
+              <button className=" flex bg-transparent border-colors-bluex py-2 px-6 border text-colors-bluex hover:text-colors-white  hover:bg-colors-bluex  hover:border-colors-bluex dark:text-colors-purple100 rounded-xl  dark:hover:bg-colors-purple400 dark:hover:text-colors-black">
                 <img src={linkedinLogo} className=" pr-2" /> Linkedin
               </button>
             </a>

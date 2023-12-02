@@ -1,15 +1,15 @@
 function Footer() {
   return (
-    <div className=" bg-colors-gray100 dark:bg-colors-graytext ">
-      <p className="text-colors-black100 font-semibold text-4xl text-left ">
+    <div className=" bg-colors-gray100 dark:bg-colors-black300 ">
+      <p className="text-colors-black100 font-semibold text-4xl text-left dark:text-colors-gray200 ">
         Let's work together on <br />
         your next project
       </p>
-      <p className="text-colors-red100 text-left underline mt-10">
+      <p className="text-colors-red100 text-left underline mt-10 dark:text-colors-purple100">
         👉 nurselkaragoz@outlook.com
       </p>
       <div>
-        <ul className="flex justify-items-start justify-end gap-2 pr-72">
+        <ul className="flex justify-items-start justify-end gap-2 pr-72 dark:text-colors-white">
           <li>Personal Blog</li>
 
           <a
