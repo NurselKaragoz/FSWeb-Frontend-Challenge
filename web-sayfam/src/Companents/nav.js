@@ -6,13 +6,13 @@ function NavigatorBar() {
           N
         </button>
 
-        <button className="bg-transparent border-colors-transparent text-colors-graytext hover:text-colors-bluex hover:py-2 px-3 border  hover:border-colors-bluex  rounded-xl">
+        <button className="bg-transparent border-colors-transparent text-colors-graytext hover:text-colors-bluex  px-3 border  hover:border-colors-bluex  rounded-xl">
           Skills
         </button>
-        <button className="bg-transparent border-colors-transparent text-colors-graytext hover:text-colors-bluex hover:py-2 px-3 border  hover:border-colors-bluex  rounded-xl">
+        <button className="bg-transparent border-colors-transparent text-colors-graytext hover:text-colors-bluex px-3 border  hover:border-colors-bluex  rounded-xl">
           Projects
         </button>
-        <button className="bg-transparent border-colors-transparent text-colors-graytext hover:text-colors-bluex hover:py-2 px-3 border  hover:border-colors-bluex  rounded-xl">
+        <button className="bg-transparent border-colors-transparent text-colors-graytext hover:text-colors-bluex px-3 border  hover:border-colors-bluex  rounded-xl">
           Hire Me
         </button>
       </div>

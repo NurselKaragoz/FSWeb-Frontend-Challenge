@@ -1,6 +1,6 @@
 function Skills() {
   return (
-    <div className=" pt-10 dark:bg-colors-black200">
+    <div className=" pt-10 dark:bg-colors-black200 m-auto max-w-max">
       <h1 className=" font-semibold text-4xl text-left dark:text-colors-gray200 pb-5">
         Skills
       </h1>
@@ -20,7 +20,7 @@ function Skills() {
             nunc sed blandit libero volutpat sed cras ornare arcu
           </p>
         </li>
-        <li className="text-left">
+        <li className="text-left ">
           Node.Js
           <p className=" text-colors-graytext text-left max-w-sm  dark:text-colors-white">
             diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis
