@@ -4,7 +4,7 @@ function Skills() {
       <h1 className=" font-semibold text-4xl text-left dark:text-colors-gray200 pb-5">
         Skills
       </h1>
-      <ul className=" text-colors-blue100 list-none flex justify-around dark:text-colors-purple200">
+      <ul className=" text-colors-blue100 list-none flex justify-between dark:text-colors-purple200">
         <li className="text-left ">
           Java Script
           <p className="text-colors-graytext text-left  max-w-sm dark:text-colors-white">
