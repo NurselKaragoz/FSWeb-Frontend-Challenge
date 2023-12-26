@@ -7,7 +7,7 @@ function Skills() {
       <ul className=" text-colors-blue100 list-none flex justify-between dark:text-colors-purple200">
         <li className="text-left ">
           Java Script
-          <p className="text-colors-graytext text-left   dark:text-colors-white">
+          <p className="text-colors-graytext text-left max-w-sm dark:text-colors-white">
             diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis
             nunc sed blandit libero volutpat sed cras ornare arcu
           </p>
@@ -15,14 +15,14 @@ function Skills() {
 
         <li className="text-left">
           React.Js
-          <p className="text-colors-graytext text-left   dark:text-colors-white">
+          <p className="text-colors-graytext text-left max-w-sm dark:text-colors-white">
             diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis
             nunc sed blandit libero volutpat sed cras ornare arcu
           </p>
         </li>
         <li className="text-left ">
           Node.Js
-          <p className=" text-colors-graytext text-left dark:text-colors-white">
+          <p className=" text-colors-graytext text-left max-w-sm dark:text-colors-white">
             diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis
             nunc sed blandit libero volutpat sed cras ornare arcu
           </p>
