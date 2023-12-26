@@ -1,6 +1,6 @@
 import "./App.css";
 import NavigatorBar from "./Companents/nav";
-import Header from "./Companents/Header";
+import Header from "./Companents/header";
 import Introduce from "./Companents/introduce";
 import Skills from "./Companents/skills";
 import Projects from "./Companents/Projects";
