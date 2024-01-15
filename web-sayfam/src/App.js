@@ -1,6 +1,6 @@
 import "./App.css";
 import NavigatorBar from "./Companents/nav";
-import Header from "./Companents/Header";
+// import Header from "./Companents/Header";
 import Introduce from "./Companents/introduce";
 import Skills from "./Companents/skills";
 import Projects from "./Companents/Projects";
@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App bg-colors-transparent dark:bg-colors-black200">
       <ProjectContext.Provider value={{ projects }}>
-        <Header />
+        {/* <Header /> */}
         <NavigatorBar />
         <Introduce />
         <Skills />
