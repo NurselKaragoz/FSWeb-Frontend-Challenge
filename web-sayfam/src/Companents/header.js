@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import { useTranslation } from "react-i18next";
 function Header() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -19,7 +19,11 @@ function Header() {
 
     setDarkMode(newDarkMode);
   };
+  const { t, i18n } = useTranslation();
 
+  const clickHandle = async (lang) => {
+    await i18n.changeLanguage(lang);
+  };
   return (
     <div className="flex justify-end dark:bg-colors-black200">
       <button
@@ -32,7 +36,13 @@ function Header() {
       </button>
 
       <p className="border-l-2 pl-5 text-colors-graytext">
-        <span className="text-colors-bluex">TÜRKÇE </span>'YE GEÇ
+        <button onClick={() => clickHandle("en")}>
+          <span className="text-colors-bluex">TÜRKÇE </span>'YE GEÇ
+        </button>
+        <button onClick={() => clickHandle("tr")}>
+          <span className="text-colors-bluex">İngilizce </span>'YE GEÇ
+        </button>
+        <h3>{t("hoşgeldin")}</h3>
       </p>
     </div>
   );
